@@ -1,68 +1,54 @@
-<!DOCTYPE HTML>
-<!--
-	Aerial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Alivn &nbsp;&bull;&nbsp;[认识一下]</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" href="fav.ico">
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+<!DOCTYPE html>
+<html lang="zh-CN">
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Alivn &nbsp;&bull;&nbsp; <span style=" color:#FC966E;">[一个魂来咯]</span></h1>
-						<!-- <p>网盘 ipv6-alivn.pan.asul.top:5244</p> -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Access-Control-Allow-Origin" content="*">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="一个默默无闻的主页" />
+  <meta name="keywords" content="無名,个人主页" />
+  <meta name="author" content="無名" />
+  <meta name="theme-color" content="#424242" />
+  <title><%- title %></title>
+  <!-- HarmonyOS Sans -->
+  <!-- 本站 CDN 已开启防盗链，非本站域名不可访问，请更改链接为下方内容，否则自定义字体将失效 -->
+  <!-- https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css -->
+  <link rel="stylesheet" href="https://cdn.imsyy.top/gh/imsyy/file/font/HarmonyOS_Sans/regular.min.css" />
+  <link rel="icon" href="/images/icon/favicon.ico">
+  <link rel="apple-touch-icon" href="/images/icon/apple-touch-icon.png">
+  <link rel="stylesheet" href="/loading/loading.min.css">
+  <!-- IE Out -->
+  <script>
+    if ( /*@cc_on!@*/ false || (!!window.MSInputMethodContext && !!document.documentMode))
+      window.location.href =
+      "https://support.dmeng.net/upgrade-your-browser.html?referrer=" + encodeURIComponent(window.location.href)
+  </script>
+</head>
 
-						<p>EMail: G319152262@gmail.com</p>
-						<span class="UP">网盘: <a href="http://ipv6-alivn.pan.asul.top:5244">纯IPV6网盘 &nbsp;&bull;&nbsp; 录播 &nbsp;&bull;&nbsp; 自溜 &nbsp;&bull;&nbsp; IPV6-Only</a>.</span><br/>
-						<span class="UP">网盘: <a href="https://pan.asul.top:65224">Sakura穿透 &nbsp;&bull;&nbsp; 录播 &nbsp;&bull;&nbsp; 自溜 &nbsp;&bull;&nbsp; IPV4 & IPV6 Password:yy3mel3hzp3cprp6</a>.</span><br/>
+<body class="loading">
+  <!--加载动画-->
+  <div id="loading-box">
+    <div class="loading-left-bg"></div>
+    <div class="loading-right-bg"></div>
+    <div class="spinner-box">
+      <div class="loader">
+        <div class="inner one"></div>
+        <div class="inner two"></div>
+        <div class="inner three"></div>
+      </div>
+      <div class="loading-word">
+        <p class="loading-title" id="loading-title"><%- title %></p>
+        <span id="loading-text">加载中</span>
+      </div>
+    </div>
+  </div>
+  <!-- 主体内容 -->
+  <div id="app"></div>
+  <!-- noscript -->
+  <noscript>
+    <div style="text-align: center">请开启 JavaScript</div>
+  </noscript>
+  <script type="module" src="/src/main.js"></script>
+</body>
 
-						<span style=" color:#FC966E" class="VTUBER">你知道我是什么成分,快来找我吧!</span><br/>
-
-						<span class="UP">A-SOUL 嘉然: <a style=" color:#E799B0;" href="https://space.bilibili.com/672328094">嘉然今天吃什么</a>.</span>
-						<span class="UP">A-SOUL 向晚: <a style=" color:#9AC8E2;" href="https://space.bilibili.com/672346917">向晚大魔王</a>.</span><br/>
-						<span class="UP">A-SOUL 贝拉: <a style=" color:#DB7D74;" href="https://space.bilibili.com/672353429">贝拉Kira</a>.</span>
-						<span class="UP">A-SOUL 乃琳: <a style=" color:#576690;" href="https://space.bilibili.com/672342685">乃琳Queen</a>.</span><br/>
-						<span class="UP">A-SOUL 珈乐: <a style=" color:#B8A6D9;" href="https://space.bilibili.com/351609538">人生有梦 各自精彩 晚安小狼 晚安骑士</a>.</span><br/>
-
-						<span style=" color:#ff6767;" class="UP Detail">珈乐因身体与学业等个人原因进入无限期休眠 (中之人开老东家团...) [注]:珈乐永远是ASoul的一员 </span><br/> <!-- 谁不是我不方便说 -->
-						<span style=" color:#0ccccc;">还关注了好多底边小V 还有好多都毕业了</span>
-						<!-- <span style=" color:#ff6767;" class="How">参考:<a href="https://www.bilibili.com/read/cv16617532/">替路人梳理一下A-SOUL珈乐“直播休眠”事件上（5.10~5.11）</a></span><br/>
-						<span style=" color:#ff6767;" class="How"><a href="https://www.bilibili.com/read/cv16627513/">【A-SOUL】以路人视角重新理性分析珈乐“直播休眠”事件（圈外人也能看懂）</a></span><br/>
-						<span style=" color:#ff6767;" class="How"><a href="https://search.bilibili.com/article?keyword=%E7%8F%88%E4%B9%90%E4%BA%8B%E4%BB%B6">Bilibili专栏搜索: 珈乐事件</a></span><br/> -->
-						<!-- <nav>
-							<ul>
-								<li><a href="https://twitter.com/UBUNTUNITER/" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-								<li><a href="https://github.com/Tncent" class="icon brands fa-github"><span class="label">Github</span></a></li>
-								<li><a href="mx:\\g3191522462@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-							</ul>
-						</nav> -->
-					</header>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
-					</footer>
-
-			</div>
-		</div>
-		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-	</body>
 </html>
